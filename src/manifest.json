@@ -1,10 +1,10 @@
 {
 
   "manifest_version": 2,
-  "name": "Containerise",
+  "name": "Containerise Plus",
   "version": "2.5.1",
 
-  "description": "Firefox extension to automatically open websites in a container",
+  "description": "Firefox extension to automatically open websites in a container. Fork of https://github.com/kintesh/containerise",
   "icons": {
     "48": "icons/icon.png",
     "96": "icons/icon.png"
@@ -22,7 +22,7 @@
 
   "browser_action": {
     "browser_style": true,
-    "default_title": "Containerise",
+    "default_title": "Containerise Plus",
     "default_popup": "index.html",
     "default_icon": "icons/icon.png"
   },
@@ -33,7 +33,7 @@
 
   "applications": {
     "gecko": {
-      "id": "containerise@kinte.sh",
+      "id": "containerise2@kinte.sh",
       "strict_min_version": "53.0"
     }
   }

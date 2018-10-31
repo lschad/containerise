@@ -12,8 +12,6 @@ const createTab = (url, newTabIndex, currentTabId, cookieStoreId) => {
       cookieStoreId,
       active: currentTab.active,
     });
-
-    Tabs.remove(currentTabId);
   });
 
   return {
